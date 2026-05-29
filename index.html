@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Muhammad Hazza Shabir — Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="grid-bg">
+
+<!-- Navigation System -->
+<nav class="fixed top-0 left-0 right-0 z-50 px-6 py-4">
+  <div class="max-w-6xl mx-auto flex items-center justify-between">
+    <a href="#home" class="font-bold text-white" style="font-family:'Space Mono',monospace; font-size:0.85rem; letter-spacing:0.1em;">
+      <span class="text-sky-400">&lt;</span>HAZZA<span class="text-sky-400">/&gt;</span>
+    </a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#certificates" class="nav-link">Certificates</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#about" class="nav-link">About</a>
+    </div>
+    <!-- Mobile menu button -->
+    <button id="menuBtn" class="md:hidden text-sky-400" onclick="toggleMenu()">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+  </div>
+  <!-- Mobile menu -->
+  <div id="mobileMenu" class="hidden md:hidden mt-4 flex flex-col gap-4 px-2 pb-4 border-t border-sky-400/10 pt-4">
+    <a href="#home" class="nav-link" onclick="toggleMenu()">Home</a>
+    <a href="#certificates" class="nav-link" onclick="toggleMenu()">Certificates</a>
+    <a href="#projects" class="nav-link" onclick="toggleMenu()">Projects</a>
+    <a href="#skills" class="nav-link" onclick="toggleMenu()">Skills</a>
+    <a href="#about" class="nav-link" onclick="toggleMenu()">About</a>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="relative min-h-screen flex items-center pt-20">
+  <!-- Glow orbs -->
+  <div class="absolute top-1/4 left-1/4 w-96 h-96 rounded-full pointer-events-none" style="background:radial-gradient(circle, rgba(56,189,248,0.08) 0%, transparent 70%);"></div>
+  <div class="absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full pointer-events-none" style="background:radial-gradient(circle, rgba(129,140,248,0.06) 0%, transparent 70%);"></div>
+
+  <div class="max-w-6xl mx-auto px-6 w-full py-20">
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+      <!-- LEFT -->
+      <div>
+        <span class="hero-tag">// Software Engineer & Game Developer</span>
+        <h1 class="hero-name">
+          <span class="text-white">Muhammad</span><br/>
+          <span class="text-sky-400 glow-blue">Hazza</span><br/>
+          <span class="text-white">Shabir</span>
+        </h1>
+        <p class="hero-sub mt-4 mb-6">
+          <span class="text-sky-400">~</span> BSc Software Engineering @ IIUI &nbsp;|&nbsp; Founder of WnB Devs
+        </p>
+        <p class="hero-desc text-slate-400 leading-relaxed max-w-lg mb-8" style="font-size:0.95rem;">
+          Building games, web apps and embedded systems with 3+ years of hands-on experience. 
+          Passionate about clean code and growing Pakistan's indie game development scene.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#projects" class="cta-btn cta-btn-fill">View Projects →</a>
+          <a href="#about" class="cta-btn">About Me</a>
+        </div>
+
+        <!-- Quick stats row -->
+        <div class="flex flex-wrap gap-6 mt-12">
+          <div>
+            <div class="text-2xl font-bold text-sky-400" style="font-family:'Space Mono',monospace;">3+</div>
+            <div class="text-xs text-slate-500 uppercase tracking-widest mt-1">Years Dev</div>
+          </div>
+          <div class="w-px bg-slate-700"></div>
+          <div>
+            <div class="text-2xl font-bold text-indigo-400" style="font-family:'Space Mono',monospace;">13+</div>
+            <div class="text-xs text-slate-500 uppercase tracking-widest mt-1">Projects</div>
+          </div>
+          <div class="w-px bg-slate-700"></div>
+          <div>
+            <div class="text-2xl font-bold text-amber-400" style="font-family:'Space Mono',monospace;">4</div>
+            <div class="text-xs text-slate-500 uppercase tracking-widest mt-1">Certificates</div>
+          </div>
+          <div class="w-px bg-slate-700"></div>
+          <div>
+            <div class="text-2xl font-bold text-emerald-400" style="font-family:'Space Mono',monospace;">1350</div>
+            <div class="text-xs text-slate-500 uppercase tracking-widest mt-1">Chess Rating</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT floating card -->
+      <div class="flex justify-center lg:justify-end">
+        <div class="float-badge relative">
+          <div class="card glow-box p-6 w-72" style="border-radius:4px;">
+            <div class="flex items-center gap-3 mb-5">
+              <div class="w-12 h-12 rounded-full bg-sky-400/20 border border-sky-400/30 flex items-center justify-center text-sky-400 font-bold text-lg">MH</div>
+              <div>
+                <div class="font-bold text-white text-sm">Hazza Shabir</div>
+                <div class="text-xs text-slate-500 mono">@gmhazza</div>
+              </div>
+              <div class="ml-auto w-2 h-2 rounded-full bg-emerald-400" title="Available"></div>
+            </div>
+            <div class="space-y-2 mb-5">
+              <div class="flex items-center gap-2 text-xs text-slate-400 mono">
+                <span class="text-sky-400">▸</span> Godot Engine
+              </div>
+              <div class="flex items-center gap-2 text-xs text-slate-400 mono">
+                <span class="text-indigo-400">▸</span> Full-Stack Web Dev
+              </div>
+              <div class="flex items-center gap-2 text-xs text-slate-400 mono">
+                <span class="text-amber-400">▸</span> C++ / Python / Java
+              </div>
+              <div class="flex items-center gap-2 text-xs text-slate-400 mono">
+                <span class="text-emerald-400">▸</span> Embedded Systems
+              </div>
+            </div>
+            <div class="border-t border-slate-700/50 pt-4 text-xs text-slate-500 mono">
+              📍 Islamabad, Pakistan &nbsp;·&nbsp; 🇵🇰
+            </div>
+          </div>
+          <!-- decorative corner -->
+          <div class="absolute -top-3 -right-3 w-6 h-6 border-t-2 border-r-2 border-sky-400/40"></div>
+          <div class="absolute -bottom-3 -left-3 w-6 h-6 border-b-2 border-l-2 border-indigo-400/40"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Certificate Section -->
+<section id="certificates" class="py-24 relative">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="reveal mb-16">
+      <span class="section-number">// 01</span>
+      <h2 class="section-title">Certificates</h2>
+      <p class="text-slate-400 mt-3 max-w-xl">Verified credentials from Programming Hero, demonstrating proficiency across multiple languages and frameworks.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <!-- CERT 1: Web Dev -->
+      <div class="card reveal p-0 overflow-hidden" style="border-radius:4px;">
+        <div class="cert-img-placeholder">
+          <img src="src/certificates/web_dev.jpg" alt="Web Development Certificate" class="w-full h-full object-cover"/>
+        </div>
+        <div class="p-4">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="font-bold text-white text-sm">Web Development</h3>
+            <span class="text-amber-400 text-xs">🏆</span>
+          </div>
+          <p class="text-xs text-slate-500 mono mb-3">Programming Hero</p>
+          <div class="flex items-center justify-between">
+            <span class="tech-tag">HTML · CSS · JS</span>
+            <span class="text-xs text-slate-600 mono">Feb 2024</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CERT 2: C++ -->
+      <div class="card reveal p-0 overflow-hidden" style="border-radius:4px;">
+        <div class="cert-img-placeholder">
+        <img src="src/certificates/cpp.jpg" alt="C++ Certificate" class="w-full h-full object-cover"/>
+        </div>
+        <div class="p-4">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="font-bold text-white text-sm">Programming in C++</h3>
+            <span class="text-amber-400 text-xs">🏆</span>
+          </div>
+          <p class="text-xs text-slate-500 mono mb-3">Programming Hero</p>
+          <div class="flex items-center justify-between">
+            <span class="tech-tag tech-tag-purple">C++</span>
+            <span class="text-xs text-slate-600 mono">May 2025</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CERT 3: Python -->
+      <div class="card reveal p-0 overflow-hidden" style="border-radius:4px;">
+        <div class="cert-img-placeholder">
+          <img src="src/certificates/python.jpg" alt="Python Certificate" class="w-full h-full object-cover"/>
+        </div>
+        <div class="p-4">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="font-bold text-white text-sm">Programming in Python</h3>
+            <span class="text-amber-400 text-xs">🏆</span>
+          </div>
+          <p class="text-xs text-slate-500 mono mb-3">Programming Hero</p>
+          <div class="flex items-center justify-between">
+            <span class="tech-tag" style="color:#34d399;border-color:rgba(52,211,153,0.3);background:rgba(52,211,153,0.08);">Python</span>
+            <span class="text-xs text-slate-600 mono">Feb 2023</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CERT 4: Java -->
+      <div class="card reveal p-0 overflow-hidden" style="border-radius:4px;">
+        <div class="cert-img-placeholder">
+          <img src="src/certificates/java.jpg" alt="Java Certificate" class="w-full h-full object-cover"/>
+        </div>
+        <div class="p-4">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="font-bold text-white text-sm">Programming in Java</h3>
+            <span class="text-amber-400 text-xs">🏆</span>
+          </div>
+          <p class="text-xs text-slate-500 mono mb-3">Programming Hero</p>
+          <div class="flex items-center justify-between">
+            <span class="tech-tag" style="color:#fbbf24;border-color:rgba(251,191,36,0.3);background:rgba(251,191,36,0.08);">Java</span>
+            <span class="text-xs text-slate-600 mono">Jan 2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="py-24 relative" style="background:rgba(0,0,0,0.2);">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="reveal mb-16">
+      <span class="section-number">// 02</span>
+      <h2 class="section-title">Projects</h2>
+      <p class="text-slate-400 mt-3 max-w-xl">A collection of projects spanning game development, web, desktop applications, and embedded systems.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- PROJECT 1 -->
+      <div class="card reveal p-6 flex flex-col" style="border-radius:4px;">
+        <div class="flex items-start justify-between mb-4">
+          <div class="w-10 h-10 rounded flex items-center justify-center text-xl" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);">🎮</div>
+          <a href="https://github.com/gmhazza/Car-Universe" target="_blank" rel="noopener" class="text-slate-600 hover:text-sky-400 transition-colors" title="GitHub Repo">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02.004 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+        <h3 class="font-bold text-white text-base mb-2">Car Universe</h3>
+        <p class="text-slate-400 text-sm leading-relaxed flex-1 mb-4">Level-based open-world car simulation game for mobile and desktop. Custom physics and core mechanics written from scratch in GDScript.</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="tech-tag">Godot</span>
+          <span class="tech-tag">GDScript</span>
+          <span class="tech-tag">Game Dev</span>
+        </div>
+        <div class="flex items-center justify-between text-xs text-slate-600 mono pt-4 border-t border-slate-700/50">
+          <span>Jun – Jul 2025</span>
+          <a href="https://github.com/gmhazza/Car-Universe" target="_blank" class="text-sky-400 hover:underline">View Repo →</a>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="card reveal p-6 flex flex-col" style="border-radius:4px;">
+        <div class="flex items-start justify-between mb-4">
+          <div class="w-10 h-10 rounded flex items-center justify-center text-xl" style="background:rgba(251,191,36,0.1);border:1px solid rgba(251,191,36,0.2);">🚗</div>
+        </div>
+        <h3 class="font-bold text-white text-base mb-2">Smart Car Parking System</h3>
+        <p class="text-slate-400 text-sm leading-relaxed flex-1 mb-4">Embedded system using Arduino and IR sensors to detect garage occupancy and manage car entry in real time.</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="tech-tag" style="color:#fbbf24;border-color:rgba(251,191,36,0.3);background:rgba(251,191,36,0.08);">Arduino</span>
+          <span class="tech-tag" style="color:#fbbf24;border-color:rgba(251,191,36,0.3);background:rgba(251,191,36,0.08);">C</span>
+          <span class="tech-tag" style="color:#fbbf24;border-color:rgba(251,191,36,0.3);background:rgba(251,191,36,0.08);">IR Sensors</span>
+        </div>
+        <div class="flex items-center justify-between text-xs text-slate-600 mono pt-4 border-t border-slate-700/50">
+          <span>May 2026</span>
+        </div>
+      </div>
+
+      <!-- PROJECT 3 -->
+      <div class="card reveal p-6 flex flex-col" style="border-radius:4px;">
+        <div class="flex items-start justify-between mb-4">
+          <div class="w-10 h-10 rounded flex items-center justify-center text-xl" style="background:rgba(52,211,153,0.1);border:1px solid rgba(52,211,153,0.2);">📥</div>
+          <a href="https://github.com/gmhazza/Youtube-Video-Downloader-Android" target="_blank" rel="noopener" class="text-slate-600 hover:text-sky-400 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02.004 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+        <h3 class="font-bold text-white text-base mb-2">YouTube Video Downloader</h3>
+        <p class="text-slate-400 text-sm leading-relaxed flex-1 mb-4">GUI application to download YouTube videos in multiple quality formats, saving as MPEG. Built with the Kivy framework.</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="tech-tag" style="color:#34d399;border-color:rgba(52,211,153,0.3);background:rgba(52,211,153,0.08);">Python</span>
+          <span class="tech-tag" style="color:#34d399;border-color:rgba(52,211,153,0.3);background:rgba(52,211,153,0.08);">Kivy</span>
+          <span class="tech-tag" style="color:#34d399;border-color:rgba(52,211,153,0.3);background:rgba(52,211,153,0.08);">GUI</span>
+        </div>
+        <div class="flex items-center justify-between text-xs text-slate-600 mono pt-4 border-t border-slate-700/50">
+          <span>Oct 2025</span>
+          <a href="https://github.com/gmhazza/Youtube-Video-Downloader-Android" target="_blank" class="text-sky-400 hover:underline">View Repo →</a>
+        </div>
+      </div>
+
+      <!-- PROJECT 4 -->
+      <div class="card reveal p-6 flex flex-col" style="border-radius:4px;">
+        <div class="flex items-start justify-between mb-4">
+          <div class="w-10 h-10 rounded flex items-center justify-center text-xl" style="background:rgba(129,140,248,0.1);border:1px solid rgba(129,140,248,0.2);">🚌</div>
+          <a href="https://github.com/gmhazza/Bus-Reservation-System" target="_blank" rel="noopener" class="text-slate-600 hover:text-sky-400 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02.004 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+        <h3 class="font-bold text-white text-base mb-2">Bus Reservation System</h3>
+        <p class="text-slate-400 text-sm leading-relaxed flex-1 mb-4">Desktop GUI application for bus seat reservation, demonstrating Java Swing and AWT framework proficiency.</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="tech-tag tech-tag-purple">Java</span>
+          <span class="tech-tag tech-tag-purple">Swing</span>
+          <span class="tech-tag tech-tag-purple">AWT</span>
+        </div>
+        <div class="flex items-center justify-between text-xs text-slate-600 mono pt-4 border-t border-slate-700/50">
+          <span>Mar 2026</span>
+          <a href="https://github.com/gmhazza/Bus-Reservation-System" target="_blank" class="text-sky-400 hover:underline">View Repo →</a>
+        </div>
+      </div>
+
+      <!-- PROJECT 5 -->
+      <div class="card reveal p-6 flex flex-col" style="border-radius:4px;">
+        <div class="flex items-start justify-between mb-4">
+          <div class="w-10 h-10 rounded flex items-center justify-center text-xl" style="background:rgba(251,191,36,0.1);border:1px solid rgba(251,191,36,0.2);">🏦</div>
+          <a href="https://github.com/gmhazza/Banking-System" target="_blank" rel="noopener" class="text-slate-600 hover:text-sky-400 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02.004 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+        <h3 class="font-bold text-white text-base mb-2">Banking System</h3>
+        <p class="text-slate-400 text-sm leading-relaxed flex-1 mb-4">CLI banking application using vectors, file streams and math libraries, showcasing strong C++ fundamentals.</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="tech-tag">C++</span>
+          <span class="tech-tag">CLI</span>
+          <span class="tech-tag">File I/O</span>
+        </div>
+        <div class="flex items-center justify-between text-xs text-slate-600 mono pt-4 border-t border-slate-700/50">
+          <span>Dec 2025 – Jan 2026</span>
+          <a href="https://github.com/gmhazza/Banking-System" target="_blank" class="text-sky-400 hover:underline">View Repo →</a>
+        </div>
+      </div>
+
+      <!-- PROJECT 6 -->
+      <div class="card reveal p-6 flex flex-col" style="border-radius:4px;">
+        <div class="flex items-start justify-between mb-4">
+          <div class="w-10 h-10 rounded flex items-center justify-center text-xl" style="background:rgba(244,114,182,0.1);border:1px solid rgba(244,114,182,0.2);">🛍️</div>
+          <a href="https://github.com/gmhazza/Perfume-Lounge-Website" target="_blank" rel="noopener" class="text-slate-600 hover:text-sky-400 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02.004 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+        <h3 class="font-bold text-white text-base mb-2">Perfume Lounge</h3>
+        <p class="text-slate-400 text-sm leading-relaxed flex-1 mb-4">Responsive e-commerce website for a perfume store with clean UI, built with Bootstrap and raw CSS, managed via Git.</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="tech-tag" style="color:#f472b6;border-color:rgba(244,114,182,0.3);background:rgba(244,114,182,0.08);">HTML</span>
+          <span class="tech-tag" style="color:#f472b6;border-color:rgba(244,114,182,0.3);background:rgba(244,114,182,0.08);">JavaScript</span>
+          <span class="tech-tag" style="color:#f472b6;border-color:rgba(244,114,182,0.3);background:rgba(244,114,182,0.08);">Bootstrap</span>
+        </div>
+        <div class="flex items-center justify-between text-xs text-slate-600 mono pt-4 border-t border-slate-700/50">
+          <span>Jan 2026</span>
+          <a href="https://github.com/gmhazza/Perfume-Lounge-Website" target="_blank" class="text-sky-400 hover:underline">View Repo →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="py-24 relative">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="reveal mb-16">
+      <span class="section-number">// 03</span>
+      <h2 class="section-title">Skills</h2>
+      <p class="text-slate-400 mt-3 max-w-xl">A broad technical toolkit built through projects, self-study, and 3+ years of active development.</p>
+    </div>
+
+    <div class="space-y-10">
+
+      <!-- Languages -->
+      <div class="reveal">
+        <h3 class="text-xs font-bold uppercase tracking-widest text-sky-400 mono mb-4">Programming Languages</h3>
+        <div class="flex flex-wrap gap-3">
+          <span class="skill-pill">⚙️ C / C++</span>
+          <span class="skill-pill">🔷 C#</span>
+          <span class="skill-pill">☕ Java</span>
+          <span class="skill-pill">🐍 Python</span>
+          <span class="skill-pill">🌐 JavaScript</span>
+          <span class="skill-pill">📘 TypeScript</span>
+          <span class="skill-pill">🏷️ HTML5</span>
+          <span class="skill-pill">🎨 CSS3</span>
+          <span class="skill-pill">🗄️ SQL</span>
+        </div>
+      </div>
+
+      <!-- Frameworks -->
+      <div class="reveal">
+        <h3 class="text-xs font-bold uppercase tracking-widest text-indigo-400 mono mb-4">Frameworks & Libraries</h3>
+        <div class="flex flex-wrap gap-3">
+          <span class="skill-pill" style="border-color:rgba(129,140,248,0.2);">Vue.js</span>
+          <span class="skill-pill" style="border-color:rgba(129,140,248,0.2);">Express.js</span>
+          <span class="skill-pill" style="border-color:rgba(129,140,248,0.2);">Node.js</span>
+          <span class="skill-pill" style="border-color:rgba(129,140,248,0.2);">Three.js</span>
+          <span class="skill-pill" style="border-color:rgba(129,140,248,0.2);">Bootstrap</span>
+          <span class="skill-pill" style="border-color:rgba(129,140,248,0.2);">Tailwind CSS</span>
+          <span class="skill-pill" style="border-color:rgba(129,140,248,0.2);">Kivy</span>
+          <span class="skill-pill" style="border-color:rgba(129,140,248,0.2);">Java Swing / AWT</span>
+          <span class="skill-pill" style="border-color:rgba(129,140,248,0.2);">SQLite3</span>
+          <span class="skill-pill" style="border-color:rgba(129,140,248,0.2);">Basic React</span>
+        </div>
+      </div>
+
+      <!-- Tools & Engines -->
+      <div class="reveal">
+        <h3 class="text-xs font-bold uppercase tracking-widest text-amber-400 mono mb-4">Tools & Engines</h3>
+        <div class="flex flex-wrap gap-3">
+          <span class="skill-pill" style="border-color:rgba(251,191,36,0.2);">🎮 Godot Engine</span>
+          <span class="skill-pill" style="border-color:rgba(251,191,36,0.2);">🎮 Unity (Basic)</span>
+          <span class="skill-pill" style="border-color:rgba(251,191,36,0.2);">🔧 Git</span>
+          <span class="skill-pill" style="border-color:rgba(251,191,36,0.2);">🐧 Linux</span>
+          <span class="skill-pill" style="border-color:rgba(251,191,36,0.2);">🤖 Arduino</span>
+          <span class="skill-pill" style="border-color:rgba(251,191,36,0.2);">📦 JSON</span>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="reveal">
+        <h3 class="text-xs font-bold uppercase tracking-widest text-emerald-400 mono mb-4">Concepts & Soft Skills</h3>
+        <div class="flex flex-wrap gap-3">
+          <span class="skill-pill" style="border-color:rgba(52,211,153,0.2);">OOP</span>
+          <span class="skill-pill" style="border-color:rgba(52,211,153,0.2);">Logic Design</span>
+          <span class="skill-pill" style="border-color:rgba(52,211,153,0.2);">Game Mechanics</span>
+          <span class="skill-pill" style="border-color:rgba(52,211,153,0.2);">Embedded Systems</span>
+          <span class="skill-pill" style="border-color:rgba(52,211,153,0.2);">Strategic Thinking</span>
+          <span class="skill-pill" style="border-color:rgba(52,211,153,0.2);">Problem Solving</span>
+          <span class="skill-pill" style="border-color:rgba(52,211,153,0.2);">Self-Motivated</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-24 relative" style="background:rgba(0,0,0,0.2);">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="reveal mb-16">
+      <span class="section-number">// 04</span>
+      <h2 class="section-title">About Me</h2>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-16 items-start">
+      <!-- LEFT: Bio + Timeline -->
+      <div class="space-y-8">
+        <div class="reveal">
+          <p class="text-slate-300 leading-relaxed text-base">
+            I'm a 19-year-old Software Engineering student at <a href="https://iiui.edu.pk" class="text-sky-400">Ibadat International University</a>, Islamabad, with over 3 years of hands-on experience in game development. I founded <span class="text-sky-400">WnB Devs</span> a solo, non-profit game development startup to help grow Pakistan's indie game community through the Godot engine.
+          </p>
+        </div>
+        <div class="reveal">
+          <p class="text-slate-400 leading-relaxed text-sm">
+            Beyond games, I enjoy building across the full stack: web apps, desktop GUIs, CLI tools, and embedded systems. I'm driven by curiosity if there's a problem, I want to build a solution for it, regardless of the language or platform.
+          </p>
+        </div>
+
+        <!-- Timeline -->
+        <div class="reveal space-y-5 mt-8">
+          <h3 class="text-xs font-bold uppercase tracking-widest text-sky-400 mono mb-6">Education Timeline</h3>
+
+          <div class="flex gap-4">
+            <div class="timeline-dot mt-1"></div>
+            <div>
+              <div class="text-white font-bold text-sm">BSc Software Engineering</div>
+              <div class="text-slate-500 text-xs mono mt-1">Ibadat International University · Oct 2025 – Present</div>
+              <div class="text-slate-400 text-xs mt-2">Software design, programming, web & game development.</div>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="timeline-dot mt-1" style="background:var(--accent2);box-shadow:0 0 10px var(--accent2);"></div>
+            <div>
+              <div class="text-white font-bold text-sm">Intermediate in Computer Sciences (ICS)</div>
+              <div class="text-slate-500 text-xs mono mt-1">Bahria College Anchorage · Aug 2023 – Jun 2025 · Grade A</div>
+              <div class="text-slate-400 text-xs mt-2">Web development foundations, game design basics, logic building.</div>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="timeline-dot mt-1" style="background:var(--gold);box-shadow:0 0 10px var(--gold);"></div>
+            <div>
+              <div class="text-white font-bold text-sm">Matriculation</div>
+              <div class="text-slate-500 text-xs mono mt-1">Bahria College Anchorage · Aug 2021 – Jun 2023 · Grade A</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Stats + Contact -->
+      <div class="space-y-6 reveal">
+        <div class="grid grid-cols-2 gap-4">
+          <div class="stat-box">
+            <div class="text-3xl font-bold text-sky-400 mono">3+</div>
+            <div class="text-xs text-slate-500 uppercase tracking-widest mt-2">Years in Game Dev</div>
+          </div>
+          <div class="stat-box">
+            <div class="text-3xl font-bold text-indigo-400 mono">13+</div>
+            <div class="text-xs text-slate-500 uppercase tracking-widest mt-2">Projects Built</div>
+          </div>
+          <div class="stat-box">
+            <div class="text-3xl font-bold text-amber-400 mono">4</div>
+            <div class="text-xs text-slate-500 uppercase tracking-widest mt-2">Certifications</div>
+          </div>
+          <div class="stat-box">
+            <div class="text-3xl font-bold text-emerald-400 mono">1350</div>
+            <div class="text-xs text-slate-500 uppercase tracking-widest mt-2">Chess Rapid Rating</div>
+          </div>
+        </div>
+
+        <!-- Interests -->
+        <div class="card p-5" style="border-radius:4px;">
+          <h4 class="text-xs font-bold uppercase tracking-widest text-slate-500 mono mb-4">Interests & Hobbies</h4>
+          <div class="space-y-3">
+            <div class="flex items-center gap-3">
+              <span class="text-xl">♟️</span>
+              <div>
+                <div class="text-white text-sm font-medium">Chess</div>
+                <div class="text-xs text-slate-500">1350 Rapid Rating · Strategic thinking & decision-making</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-xl">🎮</span>
+              <div>
+                <div class="text-white text-sm font-medium">Esports</div>
+                <div class="text-xs text-slate-500">Passionate competitive gamer · Aspiring IGL</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-xl">🚀</span>
+              <div>
+                <div class="text-white text-sm font-medium">WnB Devs</div>
+                <div class="text-xs text-slate-500">Solo game dev startup · Growing Pakistan's indie scene</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="card p-5" style="border-radius:4px;">
+          <h4 class="text-xs font-bold uppercase tracking-widest text-slate-500 mono mb-4">Get In Touch</h4>
+          <div class="space-y-2 text-sm">
+            <a href="mailto:mhazzashabir@gmail.com" class="flex items-center gap-3 text-slate-400 hover:text-sky-400 transition-colors">
+              <span class="text-sky-400 mono text-xs">@</span> mhazzashabir@gmail.com
+            </a>
+            <a href="https://wa.me/923155497354" target="_blank" class="flex items-center gap-3 text-slate-400 hover:text-emerald-400 transition-colors">
+              <span class="text-emerald-400 mono text-xs">📱</span> +92 315 5497354
+            </a>
+            <a href="https://linkedin.com/in/muhammad-hazza-shabir-3991b0387" target="_blank" class="flex items-center gap-3 text-slate-400 hover:text-sky-400 transition-colors">
+              <span class="text-sky-400 mono text-xs">in</span> muhammad-hazza-shabir
+            </a>
+            <a href="https://github.com/gmhazza" target="_blank" class="flex items-center gap-3 text-slate-400 hover:text-white transition-colors">
+              <span class="text-slate-400 mono text-xs">gh</span> gmhazza
+            </a>
+            <a href="https://instagram.com/mhazzashabir" target="_blank" class="flex items-center gap-3 text-slate-400 hover:text-pink-400 transition-colors">
+              <span class="text-pink-400 mono text-xs">ig</span> @mhazzashabir
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t border-slate-800 py-8">
+  <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+    <div class="text-slate-600 mono text-xs">
+      © 2026 Muhammad Hazza Shabir · Built with HTML + Tailwind CSS
+    </div>
+    <div class="flex items-center gap-6">
+      <a href="https://github.com/gmhazza" target="_blank" class="text-slate-600 hover:text-white transition-colors mono text-xs">GitHub</a>
+      <a href="https://linkedin.com/in/muhammad-hazza-shabir" target="_blank" class="text-slate-600 hover:text-sky-400 transition-colors mono text-xs">LinkedIn</a>
+      <a href="mailto:mhazzashabir@gmail.com" class="text-slate-600 hover:text-sky-400 transition-colors mono text-xs">Email</a>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
