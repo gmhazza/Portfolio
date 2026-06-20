@@ -23,3 +23,11 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Screenshots of Application
+
+**Desktop**
+![Desktop Edition](./screenshots/desktop.jpg)
+
+**Mobile**
+![Mobile Edition](./screenshots/mobile.jpg)
