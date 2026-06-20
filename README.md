@@ -1,5 +1,7 @@
 # Portfolio
 
+![Logo Image](./public/logo.jpg)
+
 This Website showcasing m skills on web designing in Vue3 and Tailwindcss
 
 ## Project Setup
