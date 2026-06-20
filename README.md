@@ -1,6 +1,6 @@
 # Portfolio
 
-![Logo Image](./public/logo.jpg){:style="display:block; margin:0 auto;"}
+![Logo Image](./public/logo.jpg)
 
 This Website showcasing m skills on web designing in Vue3 and Tailwindcss
 
