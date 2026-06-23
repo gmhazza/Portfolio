@@ -16,15 +16,15 @@
             Programming Languages
           </h3>
           <div class="flex flex-wrap gap-3">
-            <span class="skill-pill">⚙️ C / C++</span>
-            <span class="skill-pill">🔷 C#</span>
-            <span class="skill-pill">☕ Java</span>
-            <span class="skill-pill">🐍 Python</span>
-            <span class="skill-pill">🌐 JavaScript</span>
-            <span class="skill-pill">📘 TypeScript</span>
-            <span class="skill-pill">🏷️ HTML5</span>
-            <span class="skill-pill">🎨 CSS3</span>
-            <span class="skill-pill">🗄️ SQL</span>
+            <span class="skill-pill">C / C++</span>
+            <span class="skill-pill">C#</span>
+            <span class="skill-pill">Java</span>
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">TypeScript</span>
+            <span class="skill-pill">HTML5</span>
+            <span class="skill-pill">CSS3</span>
+            <span class="skill-pill">SQL</span>
           </div>
         </div>
         <div>
@@ -58,15 +58,15 @@
           </h3>
           <div class="flex flex-wrap gap-3">
             <span class="skill-pill" style="border-color: rgba(251, 191, 36, 0.2)"
-              >🎮 Godot Engine</span
+              >Godot Engine</span
             >
             <span class="skill-pill" style="border-color: rgba(251, 191, 36, 0.2)"
-              >🎮 Unity (Basic)</span
+              >Unity (Basic)</span
             >
-            <span class="skill-pill" style="border-color: rgba(251, 191, 36, 0.2)">🔧 Git</span>
-            <span class="skill-pill" style="border-color: rgba(251, 191, 36, 0.2)">🐧 Linux</span>
-            <span class="skill-pill" style="border-color: rgba(251, 191, 36, 0.2)">🤖 Arduino</span>
-            <span class="skill-pill" style="border-color: rgba(251, 191, 36, 0.2)">📦 JSON</span>
+            <span class="skill-pill" style="border-color: rgba(251, 191, 36, 0.2)">Git</span>
+            <span class="skill-pill" style="border-color: rgba(251, 191, 36, 0.2)">Linux</span>
+            <span class="skill-pill" style="border-color: rgba(251, 191, 36, 0.2)">Arduino</span>
+            <span class="skill-pill" style="border-color: rgba(251, 191, 36, 0.2)">JSON</span>
           </div>
         </div>
         <div>
