@@ -180,7 +180,7 @@
             <h4 class="text-xs font-bold uppercase tracking-widest text-slate-500 mono mb-4">
               Download my CV
             </h4>
-            <a href="/public/cv.pdf" class="cta-btn cta-btn-fill" download>Download</a>
+            <a href="/cv.pdf" class="cta-btn cta-btn-fill" download>Download</a>
           </div>
         </div>
       </div>
