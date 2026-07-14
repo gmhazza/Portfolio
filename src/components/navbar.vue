@@ -23,6 +23,7 @@ function toggleMenu() {
       </RouterLink>
       <div class="hidden md:flex items-center gap-8">
         <RouterLink to="/home" class="nav-link">Home</RouterLink>
+        <RouterLink to="/experinces" class="nav-link">Experinces</RouterLink>
         <RouterLink to="/certificates" class="nav-link">Certificates</RouterLink>
         <RouterLink to="/projects" class="nav-link">Projects</RouterLink>
         <RouterLink to="skills" class="nav-link">Skills</RouterLink>

@@ -2,7 +2,7 @@
   <section id="projects" class="py-24 relative" style="background: rgba(0, 0, 0, 0.2)">
     <div class="max-w-6xl mx-auto px-6">
       <div class="mb-16">
-        <span class="section-number">// 02</span>
+        <span class="section-number">// 03</span>
         <h2 class="section-title">Projects</h2>
         <p class="text-slate-400 mt-3 max-w-xl">
           A collection of projects spanning game development, web, desktop applications, and

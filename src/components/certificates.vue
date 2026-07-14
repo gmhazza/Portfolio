@@ -4,7 +4,7 @@
   <section id="certificates" class="py-24 relative">
     <div class="max-w-6xl mx-auto px-6">
       <div class="mb-16">
-        <span class="section-number">// 01</span>
+        <span class="section-number">// 02</span>
         <h2 class="section-title">Certificates</h2>
         <p class="text-slate-400 mt-3 max-w-xl">
           Verified credentials from Programming Hero, demonstrating proficiency across multiple

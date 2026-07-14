@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import { RouterView } from 'vue-router'
+</script>
 
 <template>
   <section id="home" class="relative min-h-screen flex items-center pt-20">
@@ -32,8 +34,8 @@
             Passionate about clean code and growing Pakistan's indie game development scene.
           </p>
           <div class="flex flex-wrap gap-4">
-            <a href="#projects" class="cta-btn cta-btn-fill">View Projects →</a>
-            <a href="#about" class="cta-btn">About Me</a>
+            <RouterLink to="/projects" class="cta-btn cta-btn-fill">View Projects</RouterLink>
+            <RouterLink to="/about" class="cta-btn">About Me</RouterLink>
           </div>
           <div class="flex flex-wrap gap-6 mt-12">
             <div>

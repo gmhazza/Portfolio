@@ -3,7 +3,7 @@
   <section id="about" class="py-24 relative" style="background: rgba(0, 0, 0, 0.2)">
     <div class="max-w-6xl mx-auto px-6">
       <div class="mb-16">
-        <span class="section-number">// 04</span>
+        <span class="section-number">// 05</span>
         <h2 class="section-title">About Me</h2>
       </div>
 
@@ -116,7 +116,6 @@
             </h4>
             <div class="space-y-3">
               <div class="flex items-center gap-3">
-                <span class="text-xl">♟️</span>
                 <div>
                   <div class="text-white text-sm font-medium">Chess</div>
                   <div class="text-xs text-slate-500">
@@ -125,20 +124,10 @@
                 </div>
               </div>
               <div class="flex items-center gap-3">
-                <span class="text-xl">🎮</span>
                 <div>
                   <div class="text-white text-sm font-medium">Esports</div>
                   <div class="text-xs text-slate-500">
                     Passionate competitive gamer · Aspiring IGL
-                  </div>
-                </div>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="text-xl">🚀</span>
-                <div>
-                  <div class="text-white text-sm font-medium">WnB Devs</div>
-                  <div class="text-xs text-slate-500">
-                    Solo game dev startup · Growing Pakistan's indie scene
                   </div>
                 </div>
               </div>
@@ -185,6 +174,13 @@
                 <span class="text-pink-400 mono text-xs">ig</span> @mhazzashabir
               </a>
             </div>
+          </div>
+
+          <div class="card p-5" style="border-radius: 4px">
+            <h4 class="text-xs font-bold uppercase tracking-widest text-slate-500 mono mb-4">
+              Download my CV
+            </h4>
+            <a href="/public/cv.pdf" class="cta-btn cta-btn-fill" download>Download</a>
           </div>
         </div>
       </div>
