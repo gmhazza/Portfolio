@@ -13,9 +13,9 @@
           <div>
             <p class="text-slate-300 leading-relaxed text-base">
               I'm a 19-year-old Software Engineering student at
-              <a href="https://iiui.edu.pk" class="text-sky-400">Ibadat International University</a
+              <a href="https://iiui.edu.pk" target="_blank" class="text-sky-400">Ibadat International University</a
               >, Islamabad, with over 3 years of hands-on experience in game development. I founded
-              <a href="https://wnb-devs.vercel.app" class="text-sky-400">WnB Devs</a> a solo,
+              <a href="https://wnb-devs.vercel.app" target="_blank" class="text-sky-400">WnB Devs</a> a solo,
               non-profit game development startup to help grow Pakistan's indie game community
               through the Godot engine.
             </p>
@@ -150,7 +150,7 @@
                 target="_blank"
                 class="flex items-center gap-3 text-slate-400 hover:text-emerald-400 transition-colors"
               >
-                <span class="text-emerald-400 mono text-xs">📱</span> +92 315 5497354
+                <span class="text-emerald-400 mono text-xs">wa</span> +92 315 5497354
               </a>
               <a
                 href="https://linkedin.com/in/muhammad-hazza-shabir-3991b0387"
@@ -169,9 +169,9 @@
               <a
                 href="https://instagram.com/mhazzashabir"
                 target="_blank"
-                class="flex items-center gap-3 text-slate-400 hover:text-pink-400 transition-colors"
+                class="flex items-center gap-3 text-slate-400 hover:bg-gradient-to-r hover:from-yellow-400 hover:to-purple-600 hover:bg-clip-text hover:text-transparent hover:inline-block"
               >
-                <span class="text-pink-400 mono text-xs">ig</span> @mhazzashabir
+                <span class="text-pink-400 mono text-xs ">ig</span> @mhazzashabir
               </a>
             </div>
           </div>

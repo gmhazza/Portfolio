@@ -16,15 +16,15 @@ import { RouterView } from 'vue-router'
     <div class="max-w-6xl mx-auto px-6 w-full py-20">
       <div class="grid lg:grid-cols-2 gap-16 items-center">
         <div>
-          <span class="hero-tag">// Software Engineer & Game Developer</span>
+          <span class="hero-tag">// Software Engineers</span>
           <h1 class="hero-name">
             <span class="text-white">Muhammad</span><br />
             <span class="text-sky-400 glow-blue">Hazza</span><br />
             <span class="text-white">Shabir</span>
           </h1>
           <p class="hero-sub mt-4 mb-6">
-            <span class="text-sky-400">~</span> BSc Software Engineering @ IIUI &nbsp;|&nbsp;
-            Founder of WnB Devs
+            <span class="text-sky-400">~</span> BSc Software Engineering @ <a href="https://iiui.edu.pk" target="_blank" class="text-sky-400">IIUI</a> &nbsp;|&nbsp;
+            Founder of <a href="https://wnb-devs.vercel.app" target="_blank" class="text-sky-400">WnB Devs</a>
           </p>
           <p
             class="hero-desc text-slate-400 leading-relaxed max-w-lg mb-8"
