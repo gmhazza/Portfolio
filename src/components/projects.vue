@@ -13,12 +13,6 @@
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="card p-6 flex flex-col" style="border-radius: 4px">
           <div class="flex items-start justify-between mb-4">
-            <div
-              class="w-10 h-10 rounded flex items-center justify-center text-xl"
-              style="background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.2)"
-            >
-              🎮
-            </div>
             <a
               href="https://github.com/gmhazza/Car-Universe"
               target="_blank"
@@ -51,7 +45,7 @@
           <div
             class="flex items-center justify-between text-xs text-slate-600 mono pt-4 border-t border-slate-700/50"
           >
-            <span>Jun – Jul 2025</span>
+            <span>Jan 2025</span>
             <a
               href="https://github.com/gmhazza/Car-Universe"
               target="_blank"
@@ -62,12 +56,6 @@
         </div>
         <div class="card p-6 flex flex-col" style="border-radius: 4px">
           <div class="flex items-start justify-between mb-4">
-            <div
-              class="w-10 h-10 rounded flex items-center justify-center text-xl"
-              style="background: rgba(251, 191, 36, 0.1); border: 1px solid rgba(251, 191, 36, 0.2)"
-            >
-              🚗
-            </div>
           </div>
           <h3 class="font-bold text-white text-base mb-2">Smart Car Parking System</h3>
           <p class="text-slate-400 text-sm leading-relaxed flex-1 mb-4">
@@ -111,12 +99,6 @@
         </div>
         <div class="card p-6 flex flex-col" style="border-radius: 4px">
           <div class="flex items-start justify-between mb-4">
-            <div
-              class="w-10 h-10 rounded flex items-center justify-center text-xl"
-              style="background: rgba(52, 211, 153, 0.1); border: 1px solid rgba(52, 211, 153, 0.2)"
-            >
-              📥
-            </div>
             <a
               href="https://github.com/gmhazza/Youtube-Video-Downloader-Android"
               target="_blank"
@@ -183,15 +165,6 @@
         </div>
         <div class="card p-6 flex flex-col" style="border-radius: 4px">
           <div class="flex items-start justify-between mb-4">
-            <div
-              class="w-10 h-10 rounded flex items-center justify-center text-xl"
-              style="
-                background: rgba(129, 140, 248, 0.1);
-                border: 1px solid rgba(129, 140, 248, 0.2);
-              "
-            >
-              🚌
-            </div>
             <a
               href="https://github.com/gmhazza/Bus-Reservation-System"
               target="_blank"
@@ -234,14 +207,8 @@
         </div>
         <div class="card p-6 flex flex-col" style="border-radius: 4px">
           <div class="flex items-start justify-between mb-4">
-            <div
-              class="w-10 h-10 rounded flex items-center justify-center text-xl"
-              style="background: rgba(251, 191, 36, 0.1); border: 1px solid rgba(251, 191, 36, 0.2)"
-            >
-              🏦
-            </div>
             <a
-              href="https://github.com/gmhazza/Banking-System"
+              href="https://github.com/gmhazza/terminal"
               target="_blank"
               rel="noopener"
               class="text-slate-600 hover:text-sky-400 transition-colors"
@@ -258,22 +225,21 @@
               </svg>
             </a>
           </div>
-          <h3 class="font-bold text-white text-base mb-2">Banking System</h3>
+          <h3 class="font-bold text-white text-base mb-2">terminal Clone</h3>
           <p class="text-slate-400 text-sm leading-relaxed flex-1 mb-4">
-            CLI banking application using vectors, file streams and math libraries, showcasing
-            strong C++ fundamentals.
+            CLI based terminal for cross platform operating system written in C++.It has features like <br><b>cd "path"</b><br><b>ls</b><br><b>mkdir "folder"</b><br> and many more
           </p>
           <div class="flex flex-wrap gap-2 mb-4">
             <span class="tech-tag">C++</span>
             <span class="tech-tag">CLI</span>
-            <span class="tech-tag">File I/O</span>
+            <span class="tech-tag">Cross Platform</span>
           </div>
           <div
             class="flex items-center justify-between text-xs text-slate-600 mono pt-4 border-t border-slate-700/50"
           >
-            <span>Dec 2025 – Jan 2026</span>
+            <span>Aug 2026</span>
             <a
-              href="https://github.com/gmhazza/Banking-System"
+              href="https://github.com/gmhazza/terminal"
               target="_blank"
               class="text-sky-400 hover:underline"
               >View Repo →</a
@@ -282,17 +248,8 @@
         </div>
         <div class="card p-6 flex flex-col" style="border-radius: 4px">
           <div class="flex items-start justify-between mb-4">
-            <div
-              class="w-10 h-10 rounded flex items-center justify-center text-xl"
-              style="
-                background: rgba(244, 114, 182, 0.1);
-                border: 1px solid rgba(244, 114, 182, 0.2);
-              "
-            >
-              🛍️
-            </div>
             <a
-              href="https://github.com/gmhazza/Perfume-Lounge-Website"
+              href="https://github.com/gmhazza/chatmate-frontend"
               target="_blank"
               rel="noopener"
               class="text-slate-600 hover:text-sky-400 transition-colors"
@@ -309,10 +266,9 @@
               </svg>
             </a>
           </div>
-          <h3 class="font-bold text-white text-base mb-2">Perfume Lounge</h3>
+          <h3 class="font-bold text-white text-base mb-2">Chatmate</h3>
           <p class="text-slate-400 text-sm leading-relaxed flex-1 mb-4">
-            Responsive e-commerce website for a perfume store with clean UI, built with Bootstrap
-            and raw CSS, managed via Git.
+            Chatbot is a full stack web application where you can make your account and have a chat with a bot. This bot have memory and seprate conversation for different contexts
           </p>
           <div class="flex flex-wrap gap-2 mb-4">
             <span
@@ -322,7 +278,7 @@
                 border-color: rgba(244, 114, 182, 0.3);
                 background: rgba(244, 114, 182, 0.08);
               "
-              >HTML</span
+              >Vue</span
             >
             <span
               class="tech-tag"
@@ -331,7 +287,7 @@
                 border-color: rgba(244, 114, 182, 0.3);
                 background: rgba(244, 114, 182, 0.08);
               "
-              >JavaScript</span
+              >Express</span
             >
             <span
               class="tech-tag"
@@ -340,15 +296,24 @@
                 border-color: rgba(244, 114, 182, 0.3);
                 background: rgba(244, 114, 182, 0.08);
               "
-              >Bootstrap</span
+              >GenAI</span
+            >
+            <span
+              class="tech-tag"
+              style="
+                color: #f472b6;
+                border-color: rgba(244, 114, 182, 0.3);
+                background: rgba(244, 114, 182, 0.08);
+              "
+              >JWT</span
             >
           </div>
           <div
             class="flex items-center justify-between text-xs text-slate-600 mono pt-4 border-t border-slate-700/50"
           >
-            <span>Jan 2026</span>
+            <span>June 2026</span>
             <a
-              href="https://github.com/gmhazza/Perfume-Lounge-Website"
+              href="https://github.com/gmhazza/chatmate-frontend"
               target="_blank"
               class="text-sky-400 hover:underline"
               >View Repo →</a
