@@ -83,14 +83,12 @@ import { RouterView } from 'vue-router'
           <div class="float-badge relative">
             <div class="card glow-box p-6 w-72" style="border-radius: 4px">
               <div class="flex items-center gap-3 mb-5">
-                <div
-                  class="w-12 h-12 rounded-full bg-sky-400/20 border border-sky-400/30 flex items-center justify-center text-sky-400 font-bold text-lg"
-                >
-                  MH
+                <div class="w-12 h-12 rounded-full overflow-hidden bg-sky-400/20 border border-sky-400/30 flex items-center justify-center text-sky-400 font-bold text-lg">
+                  <img class="w-full h-full object-cover" src="https://scontent.fisb5-1.fna.fbcdn.net/v/t39.30808-6/777824885_1593668072262139_3901040247296641445_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=GIB5e148hvcQ7kNvwGAxdar&_nc_oc=Adq_UHEFZGEnNqpHN8iypOiDhido7ppqqnSL5pYR-FkyZo7nO8kh8Fb2_Mv92w1gSyU&_nc_zt=23&_nc_ht=scontent.fisb5-1.fna&_nc_gid=w3vqiiyj6Ru9RCkKmGE1uQ&_nc_ss=7b2a8&oh=00_AQE18Qf3f2an6-lLWGJkb9ZoVO9VcRdGY9WwReWez-ZJow&oe=6A91AC86" alt="Profile">
                 </div>
                 <div>
                   <div class="font-bold text-white text-sm">Hazza Shabir</div>
-                  <div class="text-xs text-slate-500 mono">@gmhazza</div>
+                  <div class="text-xs text-slate-500 mono">@mhazzashabir</div>
                 </div>
                 <div class="ml-auto w-2 h-2 rounded-full bg-emerald-400" title="Available"></div>
               </div>
