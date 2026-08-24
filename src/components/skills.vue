@@ -38,17 +38,20 @@
             >
             <span class="skill-pill" style="border-color: rgba(129, 140, 248, 0.2)">Node.js</span>
             <span class="skill-pill" style="border-color: rgba(129, 140, 248, 0.2)">Three.js</span>
-            <span class="skill-pill" style="border-color: rgba(129, 140, 248, 0.2)">Bootstrap</span>
+            <span class="skill-pill" style="border-color: rgba(129, 140, 248, 0.2)">Next.js</span>
             <span class="skill-pill" style="border-color: rgba(129, 140, 248, 0.2)"
-              >Tailwind CSS</span
+              >TailwindCSS</span
             >
             <span class="skill-pill" style="border-color: rgba(129, 140, 248, 0.2)">Kivy</span>
             <span class="skill-pill" style="border-color: rgba(129, 140, 248, 0.2)"
-              >Java Swing / AWT</span
+              >Java Swing</span
             >
-            <span class="skill-pill" style="border-color: rgba(129, 140, 248, 0.2)">SQLite3</span>
+            <span class="skill-pill" style="border-color: rgba(129, 140, 248, 0.2)">Mongoose</span>
             <span class="skill-pill" style="border-color: rgba(129, 140, 248, 0.2)"
-              >Basic React</span
+              >React.js</span
+            >
+            <span class="skill-pill" style="border-color: rgba(129, 140, 248, 0.2)"
+              >SupaBase</span
             >
           </div>
         </div>
@@ -61,7 +64,10 @@
               >Godot Engine</span
             >
             <span class="skill-pill" style="border-color: rgba(251, 191, 36, 0.2)"
-              >Unity (Basic)</span
+              >MongoDB</span
+            >
+            <span class="skill-pill" style="border-color: rgba(251, 191, 36, 0.2)"
+              >MariaDB</span
             >
             <span class="skill-pill" style="border-color: rgba(251, 191, 36, 0.2)">Git</span>
             <span class="skill-pill" style="border-color: rgba(251, 191, 36, 0.2)">Linux</span>
