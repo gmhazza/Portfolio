@@ -225,7 +225,7 @@
               </svg>
             </a>
           </div>
-          <h3 class="font-bold text-white text-base mb-2">terminal Clone</h3>
+          <h3 class="font-bold text-white text-base mb-2">Termi</h3>
           <p class="text-slate-400 text-sm leading-relaxed flex-1 mb-4">
             CLI based terminal for cross platform operating system written in C++.It has features like <br><b>cd "path"</b><br><b>ls</b><br><b>mkdir "folder"</b><br> and many more
           </p>

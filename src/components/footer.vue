@@ -12,7 +12,7 @@
           >GitHub</a
         >
         <a
-          href="https://linkedin.com/in/muhammad-hazza-shabir"
+          href="https://linkedin.com/in/mhazzashabir"
           target="_blank"
           class="text-slate-600 hover:text-sky-400 transition-colors mono text-xs"
           >LinkedIn</a
@@ -27,6 +27,12 @@
           href="mailto:mhazzashabir@gmail.com"
           class="text-slate-600 hover:text-red-400 transition-colors mono text-xs"
           >Email</a
+        >
+        <a
+          href="https://about.me/mhazzashabir"
+          target="_blank"
+          class="text-slate-600 hover:text-white transition-colors mono text-xs"
+          >About.me</a
         >
       </div>
     </div>

@@ -90,9 +90,9 @@
               </div>
             </div>
             <div class="stat-box">
-              <div class="text-3xl font-bold text-indigo-400 mono">13+</div>
+              <div class="text-3xl font-bold text-indigo-400 mono">10+</div>
               <div class="text-xs text-slate-500 uppercase tracking-widest mt-2">
-                Projects Built
+                Major Projects Built
               </div>
             </div>
             <div class="stat-box">
@@ -153,11 +153,11 @@
                 <span class="text-emerald-400 mono text-xs">wa</span> +92 315 5497354
               </a>
               <a
-                href="https://linkedin.com/in/muhammad-hazza-shabir-3991b0387"
+                href="https://linkedin.com/in/mhazzashabir"
                 target="_blank"
                 class="flex items-center gap-3 text-slate-400 hover:text-sky-400 transition-colors"
               >
-                <span class="text-sky-400 mono text-xs">in</span> muhammad-hazza-shabir
+                <span class="text-sky-400 mono text-xs">in</span> mhazzashabir
               </a>
               <a
                 href="https://github.com/gmhazza"
@@ -173,12 +173,19 @@
               >
                 <span class="text-pink-400 mono text-xs ">ig</span> @mhazzashabir
               </a>
+              <a
+                href="https://about.me/mhazzashabir"
+                target="_blank"
+                class="flex items-center gap-3 text-slate-400 hover:text-white transition-colors"
+              >
+                <span class="text-slate-400 mono text-xs">a.m</span> mhazzashabir
+              </a>
             </div>
           </div>
 
           <div class="card p-5" style="border-radius: 4px">
             <h4 class="text-xs font-bold uppercase tracking-widest text-slate-500 mono mb-4">
-              Download my CV
+              Download my Resume
             </h4>
             <a href="/cv.pdf" class="cta-btn cta-btn-fill" download>Download</a>
           </div>
