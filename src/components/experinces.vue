@@ -51,7 +51,7 @@
                     <div class="text-sky-400 text-sm font-medium mt-1">AI Lab 99</div>
                   </div>
                   <span class="text-slate-500 text-xs mono whitespace-nowrap mt-1">
-                    July 2026 - September 2026
+                    July 2026 - August 2026
                   </span>
                 </div>
 
@@ -64,16 +64,22 @@
                     <span class="text-sky-400 mono">›</span><span>Forntend Web development using VUE</span>
                   </li>
                   <li class="text-slate-400 text-xs leading-relaxed flex gap-2">
-                    <span class="text-sky-400 mono">›</span><span>Backend Web development using SUPABSE</span>
+                    <span class="text-sky-400 mono">›</span><span>Backend Web development using Express and MongoDB</span>
                   </li>
                 </ul>
 
                 <div class="flex flex-wrap gap-2 mt-4">
                   <span class="text-xs mono px-2 py-1 rounded" style="background: rgba(56, 189, 248, 0.1); color: var(--accent, #38bdf8)">
-                    VUE
+                    Vue
                   </span>
                   <span class="text-xs mono px-2 py-1 rounded" style="background: rgba(56, 189, 248, 0.1); color: var(--accent, #38bdf8)">
-                    SUPABASE
+                    Express
+                  </span>
+                  <span class="text-xs mono px-2 py-1 rounded" style="background: rgba(56, 189, 248, 0.1); color: var(--accent, #38bdf8)">
+                    MongoDB
+                  </span>
+                  <span class="text-xs mono px-2 py-1 rounded" style="background: rgba(56, 189, 248, 0.1); color: var(--accent, #38bdf8)">
+                    Node.js
                   </span>
                 </div>
               </div>
@@ -123,6 +129,9 @@
                   </span>
                   <span class="text-xs mono px-2 py-1 rounded" style="background: rgba(56, 189, 248, 0.1); color: var(--accent, #38bdf8)">
                     Blender
+                  </span>
+                  <span class="text-xs mono px-2 py-1 rounded" style="background: rgba(56, 189, 248, 0.1); color: var(--accent, #38bdf8)">
+                    GIMP
                   </span>
                 </div>
               </div>

@@ -53,6 +53,7 @@ function toggleMenu() {
       class="hidden md:hidden mt-4 flex flex-col gap-4 px-2 pb-4 border-t border-sky-400/10 pt-4"
     >
       <RouterLink to="/home" class="nav-link" @click="toggleMenu">Home</RouterLink>
+      <RouterLink to="/experinces" class="nav-link" @click="toggleMenu">Experinces</RouterLink>
       <RouterLink to="/certificates" class="nav-link" @click="toggleMenu">Certificates</RouterLink>
       <RouterLink to="/projects" class="nav-link" @click="toggleMenu">Projects</RouterLink>
       <RouterLink to="/skills" class="nav-link" @click="toggleMenu">Skills</RouterLink>
